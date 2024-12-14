@@ -26,7 +26,7 @@ export default function Navbar() {
         <div className="md:hidden ml-auto">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="text-black focus:outline-none text-3xl"
+            className="text-[#d2ac6e] focus:outline-none text-3xl"
           >
             {isOpen ? <IoClose /> : <FaBars />}
           </button>
@@ -47,17 +47,17 @@ export default function Navbar() {
 
         {/* Off-Canvas Menu for Mobile */}
         <div
-          className={`fixed top-0 left-0 w-3/4 h-full bg-white transform ${
+          className={`fixed top-0 left-0 w-3/4 h-full bg-white text-black transform ${
             isOpen ? "translate-x-0 z-10" : "-translate-x-full"
           } transition-transform duration-300 ease-in-out md:hidden`}
         >
           <div className="flex items-center justify-between p-5">
             <div className="flex items-center gap-x-3">
-              <img src={logo} alt="logo not found" className="w-8" />
+              <img src={logo} alt="logo not found" className="w-48"  />
             </div>
             <button
               onClick={() => setIsOpen(false)}
-              className="text-black focus:outline-none cursor-pointer text-3xl"
+              className="text-[#d2ac6e] focus:outline-none cursor-pointer text-3xl "
             >
               <IoClose />
             </button>
@@ -69,7 +69,7 @@ export default function Navbar() {
               </Link>
             ))}
             <div className="mt-4">
-              <h2>Call Us</h2>
+              <h2 className="text-[#d2ac6e] text-lg">Call Us</h2>
               <a href="tel:+123-234-1234">+123-234-1234</a>
             </div>
           </div>
