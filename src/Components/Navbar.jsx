@@ -33,16 +33,18 @@ export default function Navbar() {
         </div>
 
         {/* Navigation Links for Desktop */}
-        <div className="hidden md:flex md:items-center gap-12">
+        <div className="hidden md:flex md:items-center xl:gap-12 gap-5">
           {navLists.map((item, ind) => (
-            <Link key={ind} to={item.link} className="text-lg">
+            <Link key={ind} to={item.link} className="lg:text-lg text-base">
               {item.label}
             </Link>
           ))}
         </div>
         <div className="hidden md:block">
-          <h2 className="text-[#d2ac6e] text-lg">Call Us</h2>
-          <a href="tel:+123-234-1234" className="text-lg font-bold">+123-234-1234</a>
+          <h2 className="text-[#d2ac6e] lg:text-lg text-base">Call Us</h2>
+          <a href="tel:+123-234-1234" className="text-lg font-bold">
+            +123-234-1234
+          </a>
         </div>
 
         {/* Off-Canvas Menu for Mobile */}
@@ -53,7 +55,7 @@ export default function Navbar() {
         >
           <div className="flex items-center justify-between p-5">
             <div className="flex items-center gap-x-3">
-              <img src={logo} alt="logo not found" className="w-48"  />
+              <img src={logo} alt="logo not found" className="w-48" />
             </div>
             <button
               onClick={() => setIsOpen(false)}

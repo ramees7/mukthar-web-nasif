@@ -5,12 +5,12 @@ export default {
     extend: {
       keyframes: {
         zoom: {
-          "0%, 100%": { backgroundSize: "100%" },
-          "50%": { backgroundSize: "105%" },
+          "0%, 100%": { transform: "scale(1)" }, // No zoom at start and end
+          "50%": { transform: "scale(1.05)" },  // Slight zoom in at 50%
         },
       },
       animation: {
-        zoom: "zoom 10s infinite ease-in-out", // Match the image transition duration
+        zoom: "zoom 10s infinite ease-in-out", // Smooth infinite zoom effect
       },
     },
   },
