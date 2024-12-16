@@ -19,7 +19,11 @@ export default function Navbar() {
     <div>
       <div className="flex w-full justify-between items-center p-5 lg:px-20 text-white bg-transparent">
         <div className="flex items-center  gap-x-3">
-          <img src={logo} alt="logo not found" className="w-48" />
+          {/* <img src={logo} alt="logo not found" className="w-48" /> */}
+          <div className="">
+            <h1 className="text-4xl text-[#d2ac6e] uppercase leading-6">Mukthar</h1>
+            <h4 className="text-[#d2ac6e] text-xs text-center">ARCHITECTURE & INTERIOR</h4>
+          </div>
         </div>
 
         {/* Toggle Button for Mobile */}
