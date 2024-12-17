@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/logo.png";
+// import logo from "../assets/logo.png";
 import { IoClose } from "react-icons/io5";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -12,7 +12,6 @@ export default function Navbar() {
     { label: "About Us", link: "/about" },
     { label: "Pages", link: "/pages" },
     { label: "Project", link: "/project" },
-    { label: "Blog", link: "/blog" },
     { label: "Contact Us", link: "/contact" },
   ];
   return (
@@ -21,8 +20,12 @@ export default function Navbar() {
         <div className="flex items-center  gap-x-3">
           {/* <img src={logo} alt="logo not found" className="w-48" /> */}
           <div className="">
-            <h1 className="text-4xl text-[#d2ac6e] uppercase leading-6">Mukthar</h1>
-            <h4 className="text-[#d2ac6e] text-xs text-center">ARCHITECTURE & INTERIOR</h4>
+            <h1 className="text-4xl text-[#d2ac6e] uppercase leading-6">
+              Mukthar
+            </h1>
+            <h4 className="text-[#d2ac6e] text-xs text-center">
+              ARCHITECTURE & INTERIOR
+            </h4>
           </div>
         </div>
 
@@ -59,7 +62,15 @@ export default function Navbar() {
         >
           <div className="flex items-center justify-between p-5">
             <div className="flex items-center gap-x-3">
-              <img src={logo} alt="logo not found" className="w-48" />
+              {/* <img src={logo} alt="logo not found" className="w-48" /> */}
+              <div className="">
+                <h1 className="text-4xl text-[#d2ac6e] uppercase leading-6">
+                  Mukthar
+                </h1>
+                <h4 className="text-[#d2ac6e] text-xs text-center">
+                  ARCHITECTURE & INTERIOR
+                </h4>
+              </div>
             </div>
             <button
               onClick={() => setIsOpen(false)}

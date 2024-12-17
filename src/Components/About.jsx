@@ -58,7 +58,7 @@ export default function About() {
             <h1 className="md:text-6xl text-4xl  text-black  font-semibold md:text-start text-center">
               We&apos;re Experienced in This Field
             </h1>
-            <h3 className="text-[#616161] text-sm md:text-base leading-8 tracking-wide">
+            <h3 className="text-[#616161] text-sm md:text-base md:leading-6 leading-6 tracking-wide">
               Mukthar Architecture & Interior specializes in crafting innovative
               and functional spaces that blend modern aesthetics with timeless
               designs. Our expert team is dedicated to transforming your dreams

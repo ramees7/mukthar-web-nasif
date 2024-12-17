@@ -103,7 +103,7 @@ export default function Work() {
           <h1 className="md:text-6xl text-4xl  text-black  font-semibold ">
             How Does Mukthar Work
           </h1>
-          <h3 className="text-[#616161] text-sm md:text-base leading-8 tracking-wide">
+          <h3 className="text-[#616161] text-sm md:text-base md:leading-6 leading-6 tracking-wide">
             We blend innovative design with functionality to create spaces that
             inspire. Our collaborative approach ensures each project reflects
             our clients vision, crafted with precision and creativity.

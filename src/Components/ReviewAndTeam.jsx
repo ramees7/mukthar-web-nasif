@@ -86,7 +86,7 @@ export default function ReviewAndTeam() {
           <h1 className="md:text-5xl text-4xl  text-black  font-semibold ">
             What Client Says
           </h1>
-          <h3 className="text-[#616161] text-sm md:text-base leading-8 tracking-wide italic">
+          <h3 className="text-[#616161] text-sm md:text-base md:leading-6 leading-6 tracking-wide italic">
             &quot;{reviews[currentReview].quote}&quot;
           </h3>
           <div className="flex items-center gap-4">
@@ -115,7 +115,7 @@ export default function ReviewAndTeam() {
           <h1 className="md:text-5xl text-4xl  text-black  font-semibold ">
             We Have Professional
           </h1>
-          <h3 className="text-[#616161] text-sm md:text-base leading-8 tracking-wide ">
+          <h3 className="text-[#616161] text-sm md:text-base md:leading-6 leading-6 tracking-wide ">
             We have a team of skilled professionals dedicated to delivering
             exceptional results. With expertise and creativity, we bring your
             visions to life.

@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import logo from "../src/assets/logo.png";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 const Home = React.lazy(() => import("./Pages/Home"));
 
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
+        <Footer />
       </Suspense>
     </BrowserRouter>
   );
