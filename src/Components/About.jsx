@@ -49,9 +49,9 @@ export default function About() {
 
   return (
     <div className="bg-[#f1f1f1] relative -top-28">
-      <div className="grid lg:grid-cols-2 grid-cols-1 md:py-28 pt-16 pt-5  xl:ps-16 lg:ps-10 ps-10 md:pe-0 pe-10 gap-16">
+      <div className="grid lg:grid-cols-2 grid-cols-1 md:py-28 pt-16  xl:ps-16 lg:ps-10 ps-10 md:pe-0 pe-10 gap-16">
         <div className="flex items-center">
-          <div className="space-y-7">
+          <div className="md:space-y-7 space-y-5">
             <h4 className="md:text-sm text-xs uppercase text-[#d2ac6e]  tracking-[5px] md:text-start text-center">
               ABOUT Mukthar
             </h4>

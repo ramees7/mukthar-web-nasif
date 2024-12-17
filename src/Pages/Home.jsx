@@ -1,5 +1,6 @@
 import About from "../Components/About";
 import Landing from "../Components/Landing";
+import ReviewAndTeam from "../Components/ReviewAndTeam";
 import Work from "../Components/Work";
 import SEOHelmet from "../SEOHelmet/SEOHelmet";
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Landing />
       <About />
       <Work />
+      <ReviewAndTeam />
     </div>
   );
 }
