@@ -13,7 +13,7 @@ export default function ContactUs() {
         url="https://www.muktharinteriors.com/contact-us"
       />
       <div
-        className="relative  -top-28 left-0 overflow-hidden -z-10 text-white h-[400px] flex items-center"
+        className="relative  -top-28 left-0 overflow-hidden bg-cover -z-10 text-white h-[400px] flex items-center"
         style={{ backgroundImage: `url(${contactUsBg})` }}
       >
         {/* Background overlay */}
@@ -27,6 +27,7 @@ export default function ContactUs() {
         </div>
       </div>
       <Contact contactPage={true} />
+      <div className="mt-[-112px]"></div>
     </div>
   );
 }

@@ -15,7 +15,7 @@ export default function AboutUs() {
         url="https://www.muktharinteriors.com/about"
       />
       <div
-        className="relative -top-28 left-0 overflow-hidden -z-10 text-white h-[400px] flex items-center"
+        className="relative -top-28 left-0 overflow-hidden bg-cover -z-10 text-white h-[400px] flex items-center"
         style={{ backgroundImage: `url(${aboutUsBg})` }}
       >
         {/* Background overlay */}

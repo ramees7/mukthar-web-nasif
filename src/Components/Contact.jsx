@@ -206,13 +206,6 @@ export default function Contact({ contactPage }) {
           </form>
         </div>
       </div>
-      {contactPage && (
-        <div className="h-28 top-28 relative bg-[#f1f1f1]">
-          <h1 className="text-lg text-[#616161] max-w-[500px] mx-auto text-center">
-            Thank you for reaching out!
-          </h1>
-        </div>
-      )}
     </div>
   );
 }
