@@ -4,6 +4,8 @@ import "./App.css";
 import logo from "../src/assets/logo.png";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import AboutUs from "./Pages/AboutUs";
+import ContactUs from "./Pages/ContactUs";
 
 const Home = React.lazy(() => import("./Pages/Home"));
 
@@ -20,6 +22,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/contact" element={<ContactUs />} />
         </Routes>
         <Footer />
       </Suspense>

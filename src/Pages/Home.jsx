@@ -1,6 +1,8 @@
 import About from "../Components/About";
+import Contact from "../Components/Contact";
 import Landing from "../Components/Landing";
-import ReviewAndTeam from "../Components/ReviewAndTeam";
+import Review from "../Components/Review";
+import Team from "../Components/Team";
 import Work from "../Components/Work";
 import SEOHelmet from "../SEOHelmet/SEOHelmet";
 
@@ -20,7 +22,9 @@ export default function Home() {
       <Landing />
       <About />
       <Work />
-      <ReviewAndTeam />
+      <Review />
+      <Team />
+      <Contact />
     </div>
   );
 }
