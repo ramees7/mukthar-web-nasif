@@ -6,8 +6,9 @@ export default function Footer() {
   const navLists = [
     { label: "Home", link: "/" },
     { label: "About Us", link: "/about" },
-    { label: "Pages", link: "/pages" },
+    { label: "Services", link: "/services" },
     { label: "Project", link: "/project" },
+    { label: "Our Team", link: "/our-team" },
     { label: "Contact Us", link: "/contact" },
   ];
   const socialMediaLists = [

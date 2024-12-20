@@ -1,7 +1,21 @@
+import { useLocation } from "react-router-dom";
 import SEOHelmet from "../SEOHelmet/SEOHelmet";
 import pageNotFoundBg from "../assets/404-page.jpg";
+import { useEffect } from "react";
 
 export default function PageNotFound() {
+  const location = useLocation();
+
+  const handleToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    handleToTop();
+  }, [location]);
   return (
     <div className="">
       <SEOHelmet

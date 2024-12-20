@@ -1,10 +1,23 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import projectBg from "../assets/aboutus-bg.jpg";
 import SEOHelmet from "../SEOHelmet/SEOHelmet";
+import { useLocation } from "react-router-dom";
 
 export default function Project() {
   const [activeTab, setActiveTab] = useState("all");
 
+  const location = useLocation();
+
+  const handleToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    handleToTop();
+  }, [location]);
   const tabs = [
     { id: "all", title: "All", content: "All content goes here" },
     { id: "interior", title: "Interior", content: "Interior design content" },
@@ -142,14 +155,16 @@ export default function Project() {
             className={`grid lg:grid-cols-3 md:grid-cols-2   gap-5  mt-10 items-center`}
           >
             {getItemsToDisplay().map(({ image, description }, index) => (
-              <div key={index} className="relative group">
+              <div key={index} className="lg:relative group sticky top-0">
                 <img
                   src={image}
                   alt={description}
                   className="w-full h-[450px] object-cover "
                 />
+                <div className="absolute top-0 left-0 w-full h-full bg-black group-hover:opacity-50 opacity-30 z-0"></div>
+
                 <div className="absolute top-10 left-0 opacity-0 group-hover:opacity-100 group-hover:left-10 transition-all duration-500 ease-in-out">
-                  <h1 className="text-2xl font-semibold tracking-widest">
+                  <h1 className="text-2xl font-semibold tracking-widest text-white">
                     {description}
                   </h1>
                   <h1 className="text-lg text-[#d2ac6e]">{description}</h1>

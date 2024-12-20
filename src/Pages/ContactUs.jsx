@@ -1,8 +1,22 @@
+import { useLocation } from "react-router-dom";
 import Contact from "../Components/Contact";
 import SEOHelmet from "../SEOHelmet/SEOHelmet";
 import contactUsBg from "../assets/aboutus-bg.jpg";
+import { useEffect } from "react";
 
 export default function ContactUs() {
+  const location = useLocation();
+
+  const handleToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    handleToTop();
+  }, [location]);
   return (
     <div>
       <SEOHelmet

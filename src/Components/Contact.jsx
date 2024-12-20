@@ -198,7 +198,7 @@ export default function Contact({ contactPage }) {
             <div className=" w-full">
               <button
                 type="submit"
-                className="uppercase md:p-5 p-3 w-full border border-[#d2ac6e] bg-[#d2ac6e] text-[#f1f1f1] hover:bg-[#f1f1f1] hover:text-[#d2ac6e] font-semibold tracking-widest"
+                className="uppercase md:p-5 p-3 w-full border border-[#d2ac6e] bg-[#d2ac6e] text-[#f1f1f1] hover:bg-[#fff] hover:text-[#d2ac6e] font-semibold tracking-widest"
               >
                 Submit
               </button>

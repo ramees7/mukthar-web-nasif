@@ -1,9 +1,24 @@
+import { useLocation } from "react-router-dom";
 import SEOHelmet from "../SEOHelmet/SEOHelmet";
 import teamBg from "../assets/aboutus-bg.jpg";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { useEffect } from "react";
 
 export default function FullTeam() {
+
+  const location = useLocation();
+
+  const handleToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    handleToTop();
+  }, [location]);
   const teamFull = [
     {
       image:

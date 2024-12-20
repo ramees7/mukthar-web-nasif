@@ -68,7 +68,7 @@ export default function Work() {
         {workCategories?.map(
           ({ title, subHead, bgImage, iconImage }, index) => (
             <div
-              className="h-screen bg-cover relative group"
+              className="h-screen bg-cover lg:relative group sticky top-0"
               key={index}
               style={{ backgroundImage: `url(${bgImage})` }}
             >
@@ -112,12 +112,14 @@ export default function Work() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:px-20 md:px-10 px-5 md:gap-10 gap-5">
           {workStructure?.map(({ step, title, description }, index) => (
             <div
-              className="border-[#d2ac6e] border w-full lg:min-h-[250px] min-h-[200px] flex flex-col items-center space-y-4 p-10"
+              className="border-[#d2ac6e] border w-full lg:min-h-[250px] min-h-[200px] flex flex-col items-center space-y-4 p-10 "
               key={index}
             >
               <h1 className="md:text-6xl text-5xl text-[#d2ac6e]">{step}</h1>
               <h2 className="text-2xl font-semibold">{title}</h2>
-              <h3 className="leading-7 text-[#616161] text-sm md:text-base ">{description}</h3>
+              <h3 className="leading-7 text-[#616161] text-sm md:text-base ">
+                {description}
+              </h3>
             </div>
           ))}
         </div>

@@ -1,10 +1,24 @@
+import { useEffect } from "react";
 import About from "../Components/About";
 import Review from "../Components/Review";
 import Work from "../Components/Work";
 import SEOHelmet from "../SEOHelmet/SEOHelmet";
 import aboutUsBg from "../assets/aboutus-bg.jpg";
+import { useLocation } from "react-router-dom";
 
 export default function AboutUs() {
+  const location = useLocation();
+
+  const handleToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    handleToTop();
+  }, [location]);
   return (
     <div>
       <SEOHelmet

@@ -6,8 +6,22 @@ import servicesModernCorporate from "../assets/services-Modern-Corporate.png";
 import servicesResidentialDesign from "../assets/services-Residential-Design.png";
 import services3DModelling from "../assets/services-3D-Modelling.png";
 import servicesMinimalistHome from "../assets/services-Minimalist-Home.png";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function Services() {
+  const location = useLocation();
+
+  const handleToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    handleToTop();
+  }, [location]);
   const servicesList = [
     {
       title: "Architecture",
