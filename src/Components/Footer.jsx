@@ -34,7 +34,7 @@ export default function Footer() {
       {/* <img src="" alt="" /> */}
       <div className="text-center max-w-[850px] mx-auto ">
         <h1 className="text-4xl text-[#d2ac6e] uppercase leading-6">Archia</h1>
-        <h4 className="text-[#d2ac6e] text-xs ">Designs</h4>
+        <h4 className="text-[#d2ac6e] text-sm ">Designs</h4>
         <h4 className="mt-5 text-[#616161] text-sm md:text-base md:leading-6 leading-6 tracking-wide ">
           We are a leading design and development company dedicated to
           transforming visions into reality. With a focus on innovation,
@@ -57,15 +57,15 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-[#d2ac6e38] py-5 text-[#61616181] text-center md:text-base text-sm relative">
-        <div className="absolute right-3 text-sm text-[#abaeb1]  md:block hidden">
+        {/* <div className="absolute right-3 text-sm text-[#abaeb1]  md:block hidden">
           <h4>Designed By Ramees</h4>
           <a href="tel:+919207424420">9207424420</a>
-        </div>
+        </div> */}
         <h2>Copyright 2024 © All Right Reserved By Archia Designs</h2>
-        <div className="text-xs  text-[#abaeb1]  md:hidden   flex gap-3 justify-center w-full pt-1">
+        {/* <div className="text-xs  text-[#abaeb1]  md:hidden   flex gap-3 justify-center w-full pt-1">
           <h4>Designed By Ramees</h4>
           <a href="tel:+919207424420">9207424420</a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

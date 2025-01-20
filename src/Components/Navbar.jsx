@@ -24,7 +24,7 @@ export default function Navbar() {
             <h1 className="text-4xl text-[#d2ac6e] uppercase leading-6">
               ARCHIA
             </h1>
-            <h4 className="text-[#d2ac6e] text-xs text-center">Designs</h4>
+            <h4 className="text-[#d2ac6e] text-sm text-center">Designs</h4>
           </div>
         </div>
 
@@ -66,7 +66,7 @@ export default function Navbar() {
                 <h1 className="text-4xl text-[#d2ac6e] uppercase leading-6">
                   ARCHIA
                 </h1>
-                <h4 className="text-[#d2ac6e] text-xs text-center">Designs</h4>
+                <h4 className="text-[#d2ac6e] text-sm text-center">Designs</h4>
               </div>
             </div>
             <button
