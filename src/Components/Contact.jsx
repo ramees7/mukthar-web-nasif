@@ -37,7 +37,7 @@ export default function Contact({ contactPage }) {
     <div className={`bg-[#f1f1f1] ${contactPage ? "relative -top-28" : ""}`}>
       <div className="relative w-full h-[80vh]">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34412.230668173295!2d76.01874834808208!3d11.229781080605242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba647a816ae1085%3A0xa8478cb3aaa25a21!2sAreekode%2C%20Kerala%20673639!5e0!3m2!1sen!2sin!4v1734516655027!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3914.9620970023757!2d76.12348387504687!3d11.116200889053994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDA2JzU4LjMiTiA3NsKwMDcnMzMuOCJF!5e0!3m2!1sen!2sin!4v1737352016157!5m2!1sen!2sin"
           className="border-0 w-full h-full"
           allowFullScreen=""
           loading="lazy"
@@ -66,8 +66,8 @@ export default function Contact({ contactPage }) {
                 <h2 className="lg:text-2xl text-lg text-black font-semibold">
                   Phone Number
                 </h2>
-                <a href="tel:+" className="md:text-base text-sm">
-                  +91 1234567890
+                <a href="tel:+919539614919" className="md:text-base text-sm">
+                  +91 9539614919
                 </a>
               </div>
             </div>
@@ -80,7 +80,7 @@ export default function Contact({ contactPage }) {
                   Email Address
                 </h2>
                 <a href="mailto:" className="md:text-base text-sm">
-                  hello@awesomesite.com
+                  hello@archiadesigns.com
                 </a>
               </div>
             </div>
@@ -93,7 +93,7 @@ export default function Contact({ contactPage }) {
                   Websites
                 </h2>
                 <a href="" className="md:text-base text-sm">
-                  www.awesomesite.com
+                  https://archia-designs.netlify.app/
                 </a>
               </div>
             </div>

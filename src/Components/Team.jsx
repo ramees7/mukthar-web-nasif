@@ -48,7 +48,7 @@ export default function Team() {
             visions to life.
           </h3>
           <div className="uppercase md:p-5 p-3 w-fit border border-[#d2ac6e] bg-[#d2ac6e] text-[#f1f1f1] hover:bg-[#f1f1f1] hover:text-[#d2ac6e] font-semibold tracking-widest">
-            <Link to={"/teams"}>discover work</Link>
+            <Link to={"/our-team"}>discover work</Link>
           </div>
         </div>
         {teams?.map(

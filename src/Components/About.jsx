@@ -64,7 +64,7 @@ export default function About() {
               designs. Our expert team is dedicated to transforming your dreams
               into reality, ensuring every detail reflects your unique style.
               Discover the perfect harmony of architecture and interiors with
-              Mukthar.
+              Archia.
             </h3>
             <div className="flex justify-evenly">
               {aboutList?.map(({ count, content }, index) => (

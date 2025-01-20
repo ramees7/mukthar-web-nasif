@@ -59,7 +59,7 @@ export default function Navbar() {
             isOpen ? "translate-x-0 z-10" : "-translate-x-full"
           } transition-transform duration-300 ease-in-out md:hidden`}
         >
-          <div className="flex items-center justify-between p-5">
+          <div className="flex items-center justify-between p-5 relative">
             <div className="flex items-center gap-x-3">
               {/* <img src={logo} alt="logo not found" className="w-48" /> */}
               <div className="">
@@ -82,7 +82,7 @@ export default function Navbar() {
                 {item.label}
               </Link>
             ))}
-            <div className="mt-4">
+            <div className=" absolute bottom-5">
               <h2 className="text-[#d2ac6e] text-lg">Call Us</h2>
               <a href="tel:+919539614919">+91 9539614919</a>
             </div>

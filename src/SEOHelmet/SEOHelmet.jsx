@@ -16,7 +16,7 @@ const SEOHelmet = ({
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="keywords" content={keywords} />
-    <meta name="author" content="Mukthar Interiors" />
+    <meta name="author" content="Archia Designs" />
 
     {/* Open Graph Meta Tags for Social Sharing */}
     <meta property="og:title" content={title} />
