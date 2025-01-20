@@ -59,32 +59,45 @@ import PageNotFound from "./Pages/PageNotFound";
 const Home = React.lazy(() => import("./Pages/Home"));
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [isInitialLoading, setIsInitialLoading] = useState(true);
 
   useEffect(() => {
-    // Set timeout to stop the loading after 5 seconds
+    // Simulate 5-second loading delay
     const timer = setTimeout(() => {
-      setLoading(false);
-    }, 10000);
+      setIsInitialLoading(false);
+    }, 2000);
 
-    // Clear the timeout if the component unmounts before the timeout
-    return () => clearTimeout(timer);
+    return () => clearTimeout(timer); // Cleanup timeout
   }, []);
 
+  if (isInitialLoading) {
+    return (
+      <div className="loading flex justify-center items-center h-screen">
+        <div className="">
+          <h1 className="md:text-7xl text-6xl text-[#d2ac6e] uppercase">
+            ARCHIA
+          </h1>
+          <h4 className="text-[#d2ac6e] md:text-2xl text-base text-center">
+            Designs
+          </h4>
+        </div>
+      </div>
+    );
+  }
   return (
     <BrowserRouter>
       <Suspense
         fallback={
-          loading ? (
-            <div className="loading flex justify-center items-center h-screen">
-              <div className="">
-                <h1 className="md:text-7xl text-6xl text-[#d2ac6e] uppercase">
-                  ARCHIA
-                </h1>
-                <h4 className="text-[#d2ac6e] md:text-2xl text-base text-center">Designs</h4>
-              </div>
+          <div className="loading flex justify-center items-center h-screen">
+            <div className="">
+              <h1 className="md:text-7xl text-6xl text-[#d2ac6e] uppercase">
+                ARCHIA
+              </h1>
+              <h4 className="text-[#d2ac6e] md:text-2xl text-base text-center">
+                Designs
+              </h4>
             </div>
-          ) : null
+          </div>
         }
       >
         <Navbar />

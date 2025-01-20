@@ -64,11 +64,11 @@ export default function Services() {
   return (
     <div>
       <SEOHelmet
-        title="Services - Archia Interiors"
+        title="Services - Archia Designs"
         description="Explore the wide range of interior design services offered by Archia Interiors. From concept to completion, we provide expert solutions to bring your dream spaces to life."
         keywords="Interior Design Services, Archia Interiors, Residential Design, Commercial Design, Architecture, Home Decor, Space Planning"
-        ogImage="https://www.Archiainteriors.com/assets/services-og-image.jpg"
-        url="https://www.Archiainteriors.com/services"
+        ogImage="https://www.archiadesigns.com/assets/services-og-image.jpg"
+        url="https://www.archiadesigns.com/services"
       />
       <div
         className="relative -top-28 left-0 overflow-hidden bg-cover -z-10 text-white h-[400px] flex items-center"

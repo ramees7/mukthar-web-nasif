@@ -46,7 +46,7 @@ const SEOHelmet = ({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://www.muktharinteriors.com",
+              item: "https://www.archiadesigns.com",
             },
             {
               "@type": "ListItem",

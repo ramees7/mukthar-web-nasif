@@ -19,11 +19,11 @@ export default function PageNotFound() {
   return (
     <div className="">
       <SEOHelmet
-        title="Page Not Found - Archia Interiors"
+        title="Page Not Found - Archia Designs"
         description="The page you are looking for does not exist."
-        keywords="Archia Interiors, Page Not Found, 404"
-        ogImage="https://www.Archiainteriors.com/assets/404-og-image.jpg"
-        url="https://www.Archiainteriors.com/page-not-found"
+        keywords="Archia Designs, Page Not Found, 404"
+        ogImage="https://www.archiadesigns.com/assets/404-og-image.jpg"
+        url="https://www.archiadesigns.com/page-not-found"
       />
       <div
         className="relative -top-28 left-0 overflow-hidden bg-cover -z-10 text-white h-[100vh] flex items-center"

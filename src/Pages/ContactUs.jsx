@@ -20,11 +20,11 @@ export default function ContactUs() {
   return (
     <div>
       <SEOHelmet
-        title="Contact Us - Archia Interiors"
+        title="Contact Us - Archia Designs"
         description="Get in touch with Archia Interiors for expert advice on interior design and architecture. Let’s create inspiring spaces together!"
-        keywords="Archia Interiors, Contact Us, Interior Design Support, Architecture Consultation, Dream Spaces, Customer Support"
-        ogImage="https://www.Archiainteriors.com/assets/contact-us-og-image.jpg"
-        url="https://www.Archiainteriors.com/contact-us"
+        keywords="Archia Designs, Contact Us, Interior Design Support, Architecture Consultation, Dream Spaces, Customer Support"
+        ogImage="https://www.archiadesigns.com/assets/contact-us-og-image.jpg"
+        url="https://www.archiadesigns.com/contact-us"
       />
       <div
         className="relative  -top-28 left-0 overflow-hidden bg-cover -z-10 text-white h-[400px] flex items-center"

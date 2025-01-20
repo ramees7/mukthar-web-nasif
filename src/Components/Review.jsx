@@ -7,7 +7,7 @@ export default function Review() {
   const reviews = [
     {
       quote:
-        "Archia Interiors delivered beyond our expectations. Their design was functional and elegant!",
+        "Archia Designs delivered beyond our expectations. Their design was functional and elegant!",
       author: "Zechariah Lewis",
       position: "Designer",
       image:

@@ -106,7 +106,7 @@ export default function Contact({ contactPage }) {
                   Address
                 </h2>
                 <h4 className="md:text-base text-sm">
-                  99 Roving St., Big City, PKU 23456
+                  New Bus Stand Road Cross Road ,Pandikad Road ,Manjeri
                 </h4>
               </div>
             </div>

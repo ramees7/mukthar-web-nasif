@@ -25,11 +25,11 @@ export default function Home() {
     <div>
       {/* SEO Helmet for Archia Interiors Home Page */}
       <SEOHelmet
-        title="Archia Interiors - Crafting Dream Spaces"
-        description="Explore Archia Interiors for innovative architecture and interior designs that bring your dream spaces to life."
+        title="Archia Designs - Crafting Dream Spaces"
+        description="Explore Archia Designs for innovative architecture and interior designs that bring your dream spaces to life."
         keywords="Interior Design, Architecture, Dream Spaces, Archia Interiors"
-        ogImage="https://www.Archiainteriors.com/assets/og-image.jpg"
-        url="https://www.Archiainteriors.com"
+        ogImage="https://www.archiadesigns.com/assets/og-image.jpg"
+        url="https://www.archiadesigns.com"
       />
 
       {/* Page Components */}

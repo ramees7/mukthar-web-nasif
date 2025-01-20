@@ -96,11 +96,11 @@ export default function Project() {
   return (
     <div>
       <SEOHelmet
-        title="Projects - Archia Interiors"
+        title="Projects - Archia Designs"
         description="Browse through the exceptional projects completed by Archia Interiors. From residential to commercial spaces, our projects showcase our commitment to quality and innovation."
-        keywords="Archia Interiors Projects, Interior Design Projects, Architecture, Residential Projects, Commercial Design, Project Gallery"
-        ogImage="https://www.Archiainteriors.com/assets/projects-og-image.jpg"
-        url="https://www.Archiainteriors.com/project"
+        keywords="Archia Designs Projects, Interior Design Projects, Architecture, Residential Projects, Commercial Design, Project Gallery"
+        ogImage="https://www.archiadesigns.com/assets/projects-og-image.jpg"
+        url="https://www.archiadesigns.com/project"
       />
       <div
         className="relative -top-28 left-0 overflow-hidden bg-cover -z-10 text-white h-[400px] flex items-center"
