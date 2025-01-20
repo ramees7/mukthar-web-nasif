@@ -54,7 +54,7 @@ export default function Contact({ contactPage }) {
             Get In Touch
           </h1>
           <h3 className="text-[#616161] text-sm md:text-base md:leading-6 leading-6 tracking-wide ">
-            Mukthar Interiors specializes in creating elegant, functional, and
+            Archia Designs specializes in creating elegant, functional, and
             personalized interior designs tailored to your style. With a focus
             on quality craftsmanship and innovative solutions, we bring your
             dream spaces to life.

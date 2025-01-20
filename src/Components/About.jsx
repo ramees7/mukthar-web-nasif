@@ -6,11 +6,11 @@ import about4 from "../assets/about-4.jpg";
 export default function About() {
   const aboutList = [
     {
-      count: 28,
+      count: 3,
       content: "Years Experience",
     },
     {
-      count: 894,
+      count: 20,
       content: "Project Completed",
     },
     {
@@ -53,13 +53,13 @@ export default function About() {
         <div className="flex items-center">
           <div className="md:space-y-7 space-y-5">
             <h4 className="md:text-sm text-xs uppercase text-[#d2ac6e]  tracking-[5px] md:text-start text-center">
-              ABOUT Mukthar
+              ABOUT Archia
             </h4>
             <h1 className="md:text-6xl text-4xl  text-black  font-semibold md:text-start text-center">
               We&apos;re Experienced in This Field
             </h1>
             <h3 className="text-[#616161] text-sm md:text-base md:leading-6 leading-6 tracking-wide">
-              Mukthar Architecture & Interior specializes in crafting innovative
+              Archia Designs specializes in crafting innovative
               and functional spaces that blend modern aesthetics with timeless
               designs. Our expert team is dedicated to transforming your dreams
               into reality, ensuring every detail reflects your unique style.

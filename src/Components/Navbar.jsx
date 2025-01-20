@@ -22,11 +22,9 @@ export default function Navbar() {
           {/* <img src={logo} alt="logo not found" className="w-48" /> */}
           <div className="">
             <h1 className="text-4xl text-[#d2ac6e] uppercase leading-6">
-              Mukthar
+              ARCHIA
             </h1>
-            <h4 className="text-[#d2ac6e] text-xs text-center">
-              ARCHITECTURE & INTERIOR
-            </h4>
+            <h4 className="text-[#d2ac6e] text-xs text-center">Designs</h4>
           </div>
         </div>
 
@@ -50,8 +48,8 @@ export default function Navbar() {
         </div>
         <div className="hidden md:block">
           <h2 className="text-[#d2ac6e] lg:text-lg text-base">Call Us</h2>
-          <a href="tel:+123-234-1234" className="text-lg font-bold">
-            +123-234-1234
+          <a href="tel:+919539614919" className="text-lg font-bold">
+            +91 9539614919
           </a>
         </div>
 
@@ -66,11 +64,9 @@ export default function Navbar() {
               {/* <img src={logo} alt="logo not found" className="w-48" /> */}
               <div className="">
                 <h1 className="text-4xl text-[#d2ac6e] uppercase leading-6">
-                  Mukthar
+                  ARCHIA
                 </h1>
-                <h4 className="text-[#d2ac6e] text-xs text-center">
-                  ARCHITECTURE & INTERIOR
-                </h4>
+                <h4 className="text-[#d2ac6e] text-xs text-center">Designs</h4>
               </div>
             </div>
             <button
@@ -88,7 +84,7 @@ export default function Navbar() {
             ))}
             <div className="mt-4">
               <h2 className="text-[#d2ac6e] text-lg">Call Us</h2>
-              <a href="tel:+123-234-1234">+123-234-1234</a>
+              <a href="tel:+919539614919">+91 9539614919</a>
             </div>
           </div>
         </div>

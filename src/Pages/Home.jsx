@@ -23,13 +23,13 @@ export default function Home() {
   }, [location]);
   return (
     <div>
-      {/* SEO Helmet for Mukthar Interiors Home Page */}
+      {/* SEO Helmet for Archia Interiors Home Page */}
       <SEOHelmet
-        title="Mukthar Interiors - Crafting Dream Spaces"
-        description="Explore Mukthar Interiors for innovative architecture and interior designs that bring your dream spaces to life."
-        keywords="Interior Design, Architecture, Dream Spaces, Mukthar Interiors"
-        ogImage="https://www.muktharinteriors.com/assets/og-image.jpg"
-        url="https://www.muktharinteriors.com"
+        title="Archia Interiors - Crafting Dream Spaces"
+        description="Explore Archia Interiors for innovative architecture and interior designs that bring your dream spaces to life."
+        keywords="Interior Design, Architecture, Dream Spaces, Archia Interiors"
+        ogImage="https://www.Archiainteriors.com/assets/og-image.jpg"
+        url="https://www.Archiainteriors.com"
       />
 
       {/* Page Components */}

@@ -64,11 +64,11 @@ export default function Services() {
   return (
     <div>
       <SEOHelmet
-        title="Services - Mukthar Interiors"
-        description="Explore the wide range of interior design services offered by Mukthar Interiors. From concept to completion, we provide expert solutions to bring your dream spaces to life."
-        keywords="Interior Design Services, Mukthar Interiors, Residential Design, Commercial Design, Architecture, Home Decor, Space Planning"
-        ogImage="https://www.muktharinteriors.com/assets/services-og-image.jpg"
-        url="https://www.muktharinteriors.com/services"
+        title="Services - Archia Interiors"
+        description="Explore the wide range of interior design services offered by Archia Interiors. From concept to completion, we provide expert solutions to bring your dream spaces to life."
+        keywords="Interior Design Services, Archia Interiors, Residential Design, Commercial Design, Architecture, Home Decor, Space Planning"
+        ogImage="https://www.Archiainteriors.com/assets/services-og-image.jpg"
+        url="https://www.Archiainteriors.com/services"
       />
       <div
         className="relative -top-28 left-0 overflow-hidden bg-cover -z-10 text-white h-[400px] flex items-center"
@@ -90,7 +90,7 @@ export default function Services() {
             OUR SERVICES
           </h4>
           <h1 className="md:text-6xl text-4xl  text-black  font-semibold ">
-            Best Services From Mukthar
+            Best Services From Archia
           </h1>
           <h3 className="text-[#616161] text-sm md:text-base md:leading-6 leading-6 tracking-wide">
             We specialize in creating stylish, functional spaces with a focus on

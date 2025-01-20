@@ -22,11 +22,11 @@ export default function AboutUs() {
   return (
     <div>
       <SEOHelmet
-        title="About Us - Mukthar Interiors"
-        description="Discover the story behind Mukthar Interiors. We are passionate about creating beautiful and functional interiors, driven by quality craftsmanship and innovative design solutions."
-        keywords="Mukthar Interiors, About Us, Interior Design Story, Architecture, Innovative Design, Quality Craftsmanship, Dream Spaces"
-        ogImage="https://www.muktharinteriors.com/assets/about-us-og-image.jpg"
-        url="https://www.muktharinteriors.com/about"
+        title="About Us - Archia Interiors"
+        description="Discover the story behind Archia Interiors. We are passionate about creating beautiful and functional interiors, driven by quality craftsmanship and innovative design solutions."
+        keywords="Archia Interiors, About Us, Interior Design Story, Architecture, Innovative Design, Quality Craftsmanship, Dream Spaces"
+        ogImage="https://www.Archiainteriors.com/assets/about-us-og-image.jpg"
+        url="https://www.Archiainteriors.com/about"
       />
       <div
         className="relative -top-28 left-0 overflow-hidden bg-cover -z-10 text-white h-[400px] flex items-center"

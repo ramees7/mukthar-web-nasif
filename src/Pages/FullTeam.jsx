@@ -78,11 +78,11 @@ export default function FullTeam() {
   return (
     <div>
       <SEOHelmet
-        title="Our Team - Mukthar Interiors"
-        description="Meet the talented team behind Mukthar Interiors. We are a group of passionate architects, designers, and craftsmen dedicated to creating exceptional spaces."
-        keywords="Mukthar Interiors Team, Our Team, Interior Designers, Architects, Skilled Professionals, Design Experts"
-        ogImage="https://www.muktharinteriors.com/assets/team-og-image.jpg"
-        url="https://www.muktharinteriors.com/our-team"
+        title="Our Team - Archia Interiors"
+        description="Meet the talented team behind Archia Interiors. We are a group of passionate architects, designers, and craftsmen dedicated to creating exceptional spaces."
+        keywords="Archia Interiors Team, Our Team, Interior Designers, Architects, Skilled Professionals, Design Experts"
+        ogImage="https://www.Archiainteriors.com/assets/team-og-image.jpg"
+        url="https://www.Archiainteriors.com/our-team"
       />
       <div
         className="relative -top-28 left-0 overflow-hidden bg-cover -z-10 text-white h-[400px] flex items-center"

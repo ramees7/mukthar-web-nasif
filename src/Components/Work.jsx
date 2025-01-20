@@ -101,7 +101,7 @@ export default function Work() {
             HOW WE WORK
           </h4>
           <h1 className="md:text-6xl text-4xl  text-black  font-semibold ">
-            How Does Mukthar Work
+            How Does Archia Work
           </h1>
           <h3 className="text-[#616161] text-sm md:text-base md:leading-6 leading-6 tracking-wide">
             We blend innovative design with functionality to create spaces that

@@ -96,11 +96,11 @@ export default function Project() {
   return (
     <div>
       <SEOHelmet
-        title="Projects - Mukthar Interiors"
-        description="Browse through the exceptional projects completed by Mukthar Interiors. From residential to commercial spaces, our projects showcase our commitment to quality and innovation."
-        keywords="Mukthar Interiors Projects, Interior Design Projects, Architecture, Residential Projects, Commercial Design, Project Gallery"
-        ogImage="https://www.muktharinteriors.com/assets/projects-og-image.jpg"
-        url="https://www.muktharinteriors.com/project"
+        title="Projects - Archia Interiors"
+        description="Browse through the exceptional projects completed by Archia Interiors. From residential to commercial spaces, our projects showcase our commitment to quality and innovation."
+        keywords="Archia Interiors Projects, Interior Design Projects, Architecture, Residential Projects, Commercial Design, Project Gallery"
+        ogImage="https://www.Archiainteriors.com/assets/projects-og-image.jpg"
+        url="https://www.Archiainteriors.com/project"
       />
       <div
         className="relative -top-28 left-0 overflow-hidden bg-cover -z-10 text-white h-[400px] flex items-center"
@@ -122,7 +122,7 @@ export default function Project() {
             LATEST PROJECT
           </h4>
           <h1 className="md:text-6xl text-4xl  text-black  font-semibold ">
-            Mukthar Architecture Project
+            Archia Architecture Project
           </h1>
           <h3 className="text-[#616161] text-sm md:text-base md:leading-6 leading-6 tracking-wide">
             We combines modern design with sustainability, focusing on
